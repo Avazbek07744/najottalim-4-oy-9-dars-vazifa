@@ -137,7 +137,7 @@
 
 // console.log(res);
 
-//? some/every
+//? some/every \\\
 
 //! 1-misol \\\
 
@@ -180,3 +180,31 @@
 // let res = students.every(student => student.grade > 50);
 
 // console.log(allAbove50);
+
+//? find \\\
+
+//! 1-misol \\\
+
+// let num = [4, 9, 11, 2, 18];
+
+// let res = num.find(function (v) {
+//     return v > 10
+// })
+
+// console.log(res);
+
+//! 2-misol \\\
+
+// let students = [
+//     { name: 'Ali', grade: 80 },
+//     { name: 'Vali', grade: 90 },
+//     { name: 'Hasan', grade: 78 },
+//     { name: 'Olim', grade: 85 }
+// ];
+
+// function std(arg) {
+//     return arg.find(student => student.grade > 85);
+// }
+
+// let res = std(students);
+// console.log(res);
